@@ -1,0 +1,32 @@
+This is a weather forecast application using API.
+
+The API used in this app is from "OpenWeatherMap" which is a weather database through which one can get different type of weather related information.
+
+You can fetch the data in 2 ways:
+1) Using City name
+2) Using PINCODE
+
+----------------------------------------------
+
+HOW TO GET WEATHER INFORMATION USING API:
+
+----------------------------------------------
+
+1) Search in your browser "OPENWEATHERMAP" OR Copy this url: https://openweathermap.org/
+
+2) You will require to create an account on this site in order to fetch the data.
+
+3) After creating the account. Click on "API" and scroll down till you find "Current & Forecast weather data collection".
+
+4) You can choose any of the api ( depending on the plan ).Here we are choosing Current Weather Data --> click on APIdoc -->you will find the api call link -->Copy that link and place it in the code(Line 11).
+
+5)For API KEY; Click on your account and then My API Keys. You will get your personalized api key which you need to add in the code( Line 11 - appid)
+
+6)After these step you will able to fetch the weather data.
+
+
+-- FOR BACKGROUND IMAGE:
+
+You will need to place the weather.jpg in your project folder.
+
+
