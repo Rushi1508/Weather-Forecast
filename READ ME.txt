@@ -29,4 +29,15 @@ HOW TO GET WEATHER INFORMATION USING API:
 
 You will need to place the weather.jpg in your project folder.
 
+Let's break it down step by step:
+
+1) Importing Libraries: The code imports the required libraries - tkinter for creating GUI elements, requests for making API requests, and PIL (Python Imaging Library) for working with images.
+
+2) Getting Weather Data: There's a function called get_weather that is called when the "Get Weather Data" button is clicked. It takes the city name or pincode entered by the user and fetches weather data from the OpenWeatherMap API using an API key.
+
+3) Displaying Weather Data: The weather data received from the API is displayed on the GUI. The temperature, humidity, wind speed, wind degree, and weather description are shown.
+
+4) Creating GUI: The GUI elements are set up using labels, entry boxes, and buttons. The background image is displayed using a label. The user can input the city name or pincode in an entry box, and there's a button to fetch weather data.
+
+5) Main Loop: The code enters the main loop with root.mainloop(), which keeps the GUI application running and handles user interactions.
 
